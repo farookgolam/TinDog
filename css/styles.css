@@ -15,6 +15,18 @@ h1{
     color: aliceblue;
     line-height: 1.5;
 }
+P{
+    color: #8f8f8f;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 ul{
     margin-left:auto;
 }
@@ -49,4 +61,46 @@ padding: 0 18px;
 /* Download Button */
 .download-button{
     margin: 5% 3% 0 0;
+}
+/* Features */
+#features{
+   padding: 7% 15%;
+   text-align: center;
+}
+.fbold{
+    padding: 5%;
+}
+.fas{
+    color:#ff4c10;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color: #ff4c95;
+}
+/* Testimonial section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
